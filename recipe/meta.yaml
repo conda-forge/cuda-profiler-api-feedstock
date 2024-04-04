@@ -1,5 +1,5 @@
 {% set name = "cuda-profiler-api" %}
-{% set version = "12.4.99" %}
+{% set version = "12.4.127" %}
 {% set cuda_version = "12.4" %}
 {% set platform = "linux-x86_64" %}  # [linux64]
 {% set platform = "linux-ppc64le" %}  # [ppc64le]
@@ -18,10 +18,10 @@ package:
 
 source:
   url: https://developer.download.nvidia.com/compute/cuda/redist/cuda_profiler_api/{{ platform }}/cuda_profiler_api-{{ platform }}-{{ version }}-archive.{{ extension }}
-  sha256: 62e2d50c2a688779e01be1743754b65fefee1197b07a21798ec3e936af971d91  # [linux64]
-  sha256: 544acb804b1191efaeb821be649390e33c55ac8639639ecbea4483e75ddfbcfd  # [ppc64le]
-  sha256: 733544bc46044825073db3eb84e204aa538503d13b6783218735b9e059447dc6  # [aarch64]
-  sha256: 9039b3113ff79589e9c9e8ee0dfd7069aec1965b426e2c5f77f1f78d7b6c5358  # [win]
+  sha256: fa11c08e39ab35453e07dd5012adc0767408955431fc4acdf64ca4cdd7692646  # [linux64]
+  sha256: 71b6102a07676635ec9fd0a34250bbe1c646e5e72d79e57e9072fef411f0d52f  # [ppc64le]
+  sha256: aaab63b12aba7278c4d72072dc71bbdb7773137af5428c7bb0414496ae78632a  # [aarch64]
+  sha256: 8c0c81125d2f0ef6f42bc46723f2c5565863731cf3a3de3ea3e738ea2d7a938f  # [win]
 
 build:
   number: 0
