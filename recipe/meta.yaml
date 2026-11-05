@@ -1,6 +1,6 @@
 {% set name = "cuda-profiler-api" %}
-{% set version = "13.4.92" %}
-{% set cuda_version = "13.4" %}
+{% set version = "13.5.25" %}
+{% set cuda_version = "13.5" %}
 {% set platform = "linux-x86_64" %}  # [linux64]
 {% set platform = "linux-ppc64le" %}  # [ppc64le]
 {% set platform = "linux-sbsa" %}  # [aarch64]
@@ -13,10 +13,10 @@
 {% set target_name = "arm64" %}  # [win and arm64]
 {% set extension = "tar.xz" %}  # [not win]
 {% set extension = "zip" %}  # [win]
-{% set sha256 = "9d405e9b0fd9a5c29e680d6f6750b9ca79b7df91e253d4dffea3495057a75f08" %}  # [linux64]
-{% set sha256 = "18f6e7917b9bd6dc93cdd560bcab5c253854e56fb18e26021c5b55f4fa00e385" %}  # [aarch64]
-{% set sha256 = "3417fa26b4471c53722d29ad3f018aae95e1ad8929fe241d8e81c47cd189c761" %}  # [win64]
-{% set sha256 = "feb00b603591129ba12ed768edeb9ae671a051b2d9207fff842f7aa83b19d9cb" %}  # [win and arm64]
+{% set sha256 = "63dbdc39ef4fc892f94b8f10c65de41fed0fa4a7f5585e418eccdf68674e1976" %}  # [linux64]
+{% set sha256 = "bb1e367d8e31aa361ab8b5ec7d3139aa98f4fdde801816641608c46c01f2f184" %}  # [aarch64]
+{% set sha256 = "af57c44ed06758ae8767dd6a0ff4ceaa85da2a037894981a59c1a9a18e81dfe6" %}  # [win64]
+{% set sha256 = "d28a8686980ee2f4604299121cb35e45265c6d730aa1bd3c152a016da543f299" %}  # [win and arm64]
 
 package:
   name: {{ name|lower }}
